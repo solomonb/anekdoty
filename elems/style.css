@@ -1,0 +1,162 @@
+
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+ 
+}
+body::before {
+    background: url("22.png")no-repeat center center; 
+    background-size: cover;
+    content: ' ';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;   
+    z-index: -1;
+}
+
+nav {
+	border: 1px solid black;
+	width: auto;	
+	background: linear-gradient(180deg,PaleGreen,LimeGreen,PaleGreen);	
+	height: 35px;
+	margin: 0;	
+	padding:10px;
+	position: relative;
+}
+
+.right{	
+	border-left: 1px solid black;
+	background-color: linear-gradient(180deg,PaleGreen,LimeGreen,PaleGreen);	
+	float: right;
+	padding:10px;	
+}
+
+.right:hover{
+	background-color: LimeGreen;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#add_text{	
+	position: absolute;
+	width: 400px;
+	left: 40%;
+	background-color: PaleGreen;
+	border-radius: 10px;
+	margin-top: 45px;
+	padding: 10px;
+	opacity: 0.9;
+}
+#box{
+	display: flex;	
+}
+
+#hello{
+	float: left;
+	width: auto;
+	height:20px;
+	background: PaleGreen;
+	border-radius: 3px;	
+}
+
+#empty{
+	width: auto;
+}
+
+nav div.left {
+	border-right: 1px solid black;
+	background-color: linear-gradient(180deg,PaleGreen,LimeGreen,PaleGreen);	
+	float: left;
+	padding:10px ;
+}
+
+.left:hover{
+	background-color: LimeGreen;
+	border-radius: 5px;	
+	cursor: pointer;
+}
+
+ 
+nav div.center{
+	
+	position: absolute;
+	left: 35%;
+	width: 500px;
+	background-color: PaleGreen;
+	border-radius: 5px; 
+	margin-top: 45px;
+	padding: 10px;
+	opacity: 0.9;
+	text-align: center;
+}  
+
+ul {
+	text-align: left;
+}
+
+#container {
+	position:static; 
+	display: flex;
+	flex-direction: column;	
+	align-items:center;
+	background: linear-gradient(180deg,YellowGreen,MediumAquamarine);
+	margin: auto;
+	text-align: center;
+	box-shadow:5px 5px 4px SeaGreen;
+	width: 700px;
+	height: 1000px; 
+	padding: 10px;	 
+	opacity: 0.9;
+	 z-index: 1;
+}
+
+ h1{
+	color: red;
+	text-shadow:5px 2px 4px SeaGreen;		
+}
+
+.pagination{	
+	display: flex;
+	flex-direction: row;	
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#page{
+	width: 20px;
+	height: 22px;
+	margin: 2px;
+	float: left;
+	background: gray;
+	border:1px solid green;
+	cursor: pointer;
+	color:green; 
+}
+
+.active{
+	color:blue;
+	cursor: pointer;	
+}  
+
+#content{
+	text-align:left;
+ 	padding: 0 30px 0 40px; 
+}
+
+div p{
+	text-align:center;
+}
+
+footer {
+	position: fixed;
+	bottom:10px;
+}
+
+.notice {
+	color:blue;
+	cursor: pointer;
+}
+
